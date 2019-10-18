@@ -1,0 +1,25 @@
+{
+  "short_name": "demoapp",
+  "name": "demoapp",
+  "icons": [
+    {
+      "src": "warehouse128.png",
+      "sizes": "128x128",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "warehouse256.png",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "warehouse512.png",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

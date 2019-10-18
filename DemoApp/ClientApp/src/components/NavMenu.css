@@ -1,0 +1,37 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+
+__fixed {
+  background-color: '#fff';
+  border: '1px solid #ddd';
+  box-shadow: '0px 3px 5px rgba(0, 0, 0, 0.2)';
+}
+
+__nonFixed {
+  
+  border: 'none';
+  box-shadow: 'none';
+  margin-bottom: '1em';
+  margin-top: '4em';
+  transition: 'box-shadow 0.5s ease, padding 0.5s ease';
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* .box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+} */
+
+
